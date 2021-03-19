@@ -16,9 +16,10 @@ code {
 }
 
 .logo {
-  font-size: 36px;
   text-align: center;
+  font-size: 36px;
   margin-top: 15px;
+  margin-bottom: 30px;
   font-weight: normal;
   color: #000000;
 }
@@ -38,17 +39,17 @@ code {
 }
 
 .footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
+  position: fixed;
+  left :0px;
+  bottom: 0px;
+  height: 5%;
+  width:100%;
 }
 
 .block {
   display: inline-block;
-  margin-top: 30px;
-  margin-left: 21px;
+  margin-left: 25px;
+  margin-bottom: 30px;
 }
 
 .image {
@@ -63,12 +64,438 @@ code {
   cursor: pointer;
 }
 
-.center {
-  margin: auto;
-}
-
 h1 {
   text-align: center;
   margin: auto;
   margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1919px){
+
+  .logo {
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    position: fixed;
+    left :0px;
+    bottom: 0px;
+    height: 5%;
+    width:100%;
+  }
+
+  .block {
+    margin: 0;
+    margin-left: 21px;
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 500px;
+    height: 100%;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1600px){
+
+  .logo {
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    position: fixed;
+    left :0px;
+    bottom: 0px;
+    height: 3%;
+    width:100%;
+  }
+
+  .block {
+    margin: 0;
+    margin-left: 21px;
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 500px;
+    height: 250px;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+
+  .logo {
+    font-size: 70px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .footer {
+    position: unset;
+    left :0px;
+    bottom: 0px;
+    height: 3%;
+    width:100%;
+  }
+
+  .block {
+    margin: 0;
+    margin-left: 21px;
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 800px;
+    height: 100%;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+
+  .logo {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 3px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 36px;
+    line-height: 16px;
+    margin-top: 30px;
+  }
+
+  .footer {
+    margin-top: 109px;
+    margin-bottom: 20px;
+  }
+
+  .block {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 718px;
+    height: 100%;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px){
+
+  .logo {
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+  }
+
+  .footer {
+    margin-top: 109px;
+    margin-bottom: 12px;
+  }
+
+  .block {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 350px;
+    height: 100%;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 375px){
+
+  .logo {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    margin-top: 109px;
+    margin-bottom: 12px;
+  }
+
+  .block {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+
+  .logo {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .line {
+    height: 1px;
+    width: 100%;
+    background-color: #CCCCCC;
+    margin-bottom: 12px;
+  }
+
+  .date {
+    text-align: center;
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    margin-top: 109px;
+    margin-bottom: 12px;
+  }
+
+  .block {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .center {
+    text-align: center;
+    width: 280px;
+  }
 }

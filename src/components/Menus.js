@@ -13,9 +13,9 @@ function Menus(props) {
     }, [])
     return (
         <div>
-            {menus.map((menu) => {
-              return  <Menu menu={menu} />
-            })}
+            {/*{menus.map((menu) => {*/}
+            {/*  return  <Menu menu={menu} />*/}
+            {/*})}*/}
         </div>
     );
 }
