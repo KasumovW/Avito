@@ -27,3 +27,18 @@ export const loadMenus = (id) => {
             })
     }
 }
+
+export const loadComments = (id) => {
+    return function (dispatch) {
+        dispatch({type: 'comments/load/start'});
+
+        fetch(`https://boiling-refuge-66454.herokuapp.com/images/${id}/comments`)
+            .then((response) => response.json())
+            .then(json => {
+                dispatch({
+                    type: 'comments/load/success',
+                    payload: json
+                })
+            })
+    }
+}

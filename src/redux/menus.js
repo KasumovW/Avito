@@ -1,5 +1,6 @@
 const initialState = {
-    url: null,
+    items: [],
+    comments: [],
     loading: false,
 }
 const menusReducer = (state = initialState, actions) => {
@@ -14,6 +15,19 @@ const menusReducer = (state = initialState, actions) => {
             return {
                 ...state,
                 items: actions.payload,
+                loading: false
+            }
+
+        case "comments/load/start":
+            return {
+                ...state,
+                loading: true
+            }
+
+        case "comments/load/success":
+            return {
+                ...state,
+                comments: actions.payload,
                 loading: false
             }
 

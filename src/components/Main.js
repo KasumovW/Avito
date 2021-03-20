@@ -1,13 +1,23 @@
 import {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {loadImage} from "../redux/actions";
+import {loadComments, loadImage, loadMenus} from "../redux/actions";
 import Image from "./Image";
+import {useParams} from "react-router-dom";
 
 function Main(props) {
     const dispatch = useDispatch();
     const images = useSelector((state) => state.images.items);
     useEffect(() => {
         dispatch(loadImage())
+    }, [])
+
+    const params = useParams();
+    useEffect(() => {
+        dispatch(loadMenus(params.id))
+    }, [params])
+
+    useEffect(() => {
+        dispatch(loadComments(params.id))
     }, [])
 
     return (
