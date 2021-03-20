@@ -12,7 +12,7 @@ function Modal(props) {
                         <input type="text" placeholder="  Ваше имя" />
                     </div>
                     <div className="input_one">
-                        <input type="text"placeholder="  Ваш комментарий" />
+                        <input type="text" placeholder="  Ваш комментарий" />
                     </div>
                     <div className="button_one">
                         <button className="button">

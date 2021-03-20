@@ -7,18 +7,18 @@ import Menus from "./Menus";
 
 function App() {
     const loading1 = useSelector((state) => state.images.loading);
-  return (
-    <div className="App">
-        <Header />
+    return (
+        <div className="App">
+            <Header />
             <Route path="/:id?">
                 {loading1 ? <h1>Loading...</h1> : (
                     <Main />
                 )}
                 <Menus />
             </Route>
-        <Footer />
-    </div>
-  );
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
