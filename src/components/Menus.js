@@ -26,12 +26,12 @@ function Menus(props) {
                 </div>
                 <div className="right">
                     <div className="comments">
-                        <div className="date2">18.12.2020</div>
+                        <div className="date2">{comments.date}</div>
                         <div className="comm">{comments.text}</div>
                     </div>
                     <div className="comments">
-                        <div className="date2">18.12.2020</div>
-                        <div className="comm">Я тут был, очень понравилось</div>
+                        <div className="date2">{comments.date}</div>
+                        <div className="comm">{comments.text}</div>
                     </div>
                 </div>
             </div>
