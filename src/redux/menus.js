@@ -1,6 +1,6 @@
 const initialState = {
     items: [],
-    loading: false
+    loading: false,
 }
 const menusReducer = (state = initialState, actions) => {
     switch (actions.type) {
