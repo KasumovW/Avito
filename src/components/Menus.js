@@ -1,6 +1,8 @@
 import React from 'react';
+import {useSelector} from "react-redux";
 
 function Menus(props) {
+    const data = useSelector((state) => state.menus.url);
     return (
         <div className={props.active ? "modal active" : "modal"} onClick={() => props.setActive(false)}>
             <div className={props.active ? "modal__content active" : "modal__content"} onClick={event => event.stopPropagation()}>
@@ -23,12 +25,12 @@ function Menus(props) {
                 </div>
                 <div className="right">
                     <div className="comments">
-                        <div className="date2">props.data.comments.date</div>
-                        <div className="comm">props.data.comments.text</div>
+                        <div className="date2">18.12.2020</div>
+                        <div className="comm">Отличное фото</div>
                     </div>
                     <div className="comments">
-                        <div className="date2">props.data.comments.date</div>
-                        <div className="comm">props.data.comments.text</div>
+                        <div className="date2">18.12.2020</div>
+                        <div className="comm">Я тут был, очень понравилось</div>
                     </div>
                 </div>
             </div>
