@@ -81,6 +81,7 @@ button {
 
 .date2 {
     color: #CCCCCC;
+    margin-right: 20px;
 }
 
 .comm {
@@ -88,10 +89,16 @@ button {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 414px) {
+.x {
+    position: fixed;
+    top: 0;
+    left: 95%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
     .modal {
-        height: 100vh;
-        width: 100vw;
         background-color: rgba(0, 0, 0, 0.4);
         position: fixed;
         top: 0;
@@ -110,8 +117,8 @@ button {
     }
 
     .modal__content {
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         padding: 0px;
         background-color: white;
         transform: scale(0.5);
@@ -128,6 +135,7 @@ button {
     }
     .right {
         margin: 0;
+        padding: 0 25px;
     }
 
     .big_img {
@@ -141,7 +149,7 @@ button {
     }
 
     .input_one {
-        width: 350px;
+        width: 85%;
         height: 30px;
         margin: auto;
         margin-top: 30px;
@@ -162,9 +170,9 @@ button {
     }
 
     button {
-        width: 350px;
+        width: 100%;
+        height: 100%;
         background-color: #4997D0;
-        margin-top: 30px;
         cursor: pointer;
         border-radius: 3px;
         text-align: center;
@@ -175,7 +183,10 @@ button {
     }
 
     .button_one {
+        width: 85%;
+        height: 30px;
         margin: auto;
+        margin-bottom: 50px;
     }
 
     .date2 {
@@ -185,5 +196,18 @@ button {
     .comm {
         margin-bottom: 20px;
         font-weight: 500;
+    }
+
+    .comments {
+        width: 90%;
+        margin: auto;
+    }
+
+    .x {
+        position: fixed;
+        top: 3%;
+        left: 90%;
+        font-size: 30px;
+        cursor: pointer;
     }
 }

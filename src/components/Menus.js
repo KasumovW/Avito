@@ -10,7 +10,7 @@ function Menus(props) {
     const params = useParams();
     const dispatch = useDispatch();
     const menus = useSelector((state) => state.menus.items)
-    const [modalActive, setModalActive] = useState(true);
+    const [modalActive, setModalActive] = useState(false);
 
 
     useEffect(() => {

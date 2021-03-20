@@ -4,6 +4,7 @@ function Modal(props) {
     return (
         <div className={props.active ? "modal active" : "modal"} onClick={() => props.setActive(false)}>
             <div className={props.active ? "modal__content active" : "modal__content"} onClick={event => event.stopPropagation()}>
+                <div className="x" onClick={() => props.setActive(false)}>✖</div>
                 <div className="left">
                     <div className="big_img">
                         <img className="img1" src="https://via.placeholder.com/600/92c952" alt="IMG"/>
