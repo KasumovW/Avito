@@ -178,11 +178,8 @@ h1 {
   }
 
   .footer {
-    position: fixed;
-    left :0px;
-    bottom: 0px;
-    height: 3%;
-    width:100%;
+    position: relative;
+    margin-bottom: 10px;
   }
 
   .block {

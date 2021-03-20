@@ -1,5 +1,5 @@
 const initialState = {
-    items: [],
+    url: null,
     loading: false,
 }
 const menusReducer = (state = initialState, actions) => {

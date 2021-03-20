@@ -9,10 +9,11 @@ function Main(props) {
     useEffect(() => {
         dispatch(loadImage())
     }, [])
+
     return (
         <div className="center">
             {images.map((data) => {
-                return(<Image data={data} key={data.id} />);
+                return(<Image modalActive={props.modalActive} setModalActive={props.setModalActive} data={data} key={data.id} />);
             })}
         </div>
     );

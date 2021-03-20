@@ -6,7 +6,7 @@ function Image(props) {
         <div className="block">
             <Link to={`/${props.data.id}`}>
                 <div className="image">
-                    <img src={props.data.url} alt="Img" className="img"/>
+                    <img onClick={() => props.setModalActive(true)} src={props.data.url} alt="Img" className="img"/>
                 </div>
             </Link>
         </div>
