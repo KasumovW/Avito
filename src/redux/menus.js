@@ -18,19 +18,6 @@ const menusReducer = (state = initialState, actions) => {
                 loading: false
             }
 
-        case "comments/load/start":
-            return {
-                ...state,
-                loading: true
-            }
-
-        case "comments/load/success":
-            return {
-                ...state,
-                comments: actions.payload,
-                loading: false
-            }
-
         default:
             return state;
     }

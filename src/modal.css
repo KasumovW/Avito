@@ -29,12 +29,9 @@
 .modal__content.active {
     transform: scale(1);
 }
-
-.left {
-    margin-right: 25px;
-}
 .right {
     margin-right: 10px;
+    margin-left: 25px;
 }
 
 .big_img {
@@ -81,7 +78,7 @@ button {
 
 .date2 {
     color: #CCCCCC;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .comm {
@@ -92,8 +89,8 @@ button {
 .x {
     position: fixed;
     top: 0;
-    left: 95%;
-    font-size: 25px;
+    left: 96%;
+    font-size: 20px;
     cursor: pointer;
 }
 

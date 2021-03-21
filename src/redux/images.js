@@ -4,7 +4,7 @@ const initialState = {
 }
 const imagesReducer = (state = initialState, actions) => {
     switch (actions.type) {
-        case "images/load/start":
+        case "image/load/start":
             return {
                 ...state,
                 loading: true

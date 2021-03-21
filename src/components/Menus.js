@@ -3,7 +3,7 @@ import {useSelector} from "react-redux";
 
 function Menus(props) {
     const data = useSelector((state) => state.menus.items);
-    const comments = useSelector((state) => state.menus.comments);
+    const comments = useSelector((state) => state.menus.items.comments);
     return (
         <div className={props.active ? "modal active" : "modal"} onClick={() => props.setActive(false)}>
             <div className={props.active ? "modal__content active" : "modal__content"} onClick={event => event.stopPropagation()}>
@@ -24,16 +24,18 @@ function Menus(props) {
                         </button>
                     </div>
                 </div>
-                <div className="right">
-                    <div className="comments">
-                        <div className="date2">{comments.date}</div>
-                        <div className="comm">{comments.text}</div>
-                    </div>
-                    <div className="comments">
-                        <div className="date2">{comments.date}</div>
-                        <div className="comm">{comments.text}</div>
-                    </div>
-                </div>
+                {comments === undefined ? undefined : (
+                    comments.map((comm) => {
+                        return(
+                            <div className="right">
+                                <div className="comments">
+                                    <div className="date2">{comm.date}</div>
+                                    <div className="comm">{comm.text}</div>
+                                </div>
+                            </div>
+                        )
+                    })
+                )}
             </div>
         </div>
     );
