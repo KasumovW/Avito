@@ -1,17 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-sizing: border-box;
   padding: 0 20px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -23,7 +23,7 @@ code {
 .pls {
   margin-top: 10px;
   font-size: 20px;
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 .as {
@@ -52,23 +52,23 @@ code {
 .line {
   height: 1px;
   width: 100%;
-  background-color: #CCCCCC;
+  background-color: #cccccc;
   margin-bottom: 12px;
 }
 
 .date {
   text-align: center;
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 14px;
   line-height: 16px;
 }
 
 .footer {
   position: fixed;
-  left :0px;
+  left: 0px;
   bottom: 0px;
   height: 5%;
-  width:100%;
+  width: 100%;
 }
 
 .block {
@@ -80,7 +80,6 @@ code {
 .image {
   width: 600px;
   height: 200px;
-
 }
 
 .img {
@@ -100,8 +99,7 @@ h1 {
   width: 100%;
 }
 
-@media only screen and (max-width: 1919px){
-
+@media only screen and (max-width: 1919px) {
   .logo {
     font-size: 70px;
     font-weight: normal;
@@ -114,23 +112,23 @@ h1 {
   .line {
     height: 1px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 14px;
     line-height: 16px;
   }
 
   .footer {
     position: fixed;
-    left :0px;
+    left: 0px;
     bottom: 0px;
     height: 5%;
-    width:100%;
+    width: 100%;
   }
 
   .block {
@@ -142,7 +140,6 @@ h1 {
   .image {
     width: 500px;
     height: 100%;
-
   }
 
   .img {
@@ -163,8 +160,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1600px){
-
+@media only screen and (max-width: 1600px) {
   .logo {
     font-size: 70px;
     font-weight: normal;
@@ -177,13 +173,13 @@ h1 {
   .line {
     height: 1px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 14px;
     line-height: 16px;
   }
@@ -202,7 +198,6 @@ h1 {
   .image {
     width: 500px;
     height: 250px;
-
   }
 
   .img {
@@ -223,8 +218,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1024px){
-
+@media only screen and (max-width: 1024px) {
   .logo {
     font-size: 70px;
     font-weight: normal;
@@ -237,23 +231,23 @@ h1 {
   .line {
     height: 2px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 16px;
     line-height: 16px;
   }
 
   .footer {
     position: unset;
-    left :0px;
+    left: 0px;
     bottom: 0px;
     height: 3%;
-    width:100%;
+    width: 100%;
   }
 
   .block {
@@ -265,7 +259,6 @@ h1 {
   .image {
     width: 800px;
     height: 100%;
-
   }
 
   .img {
@@ -286,8 +279,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 768px){
-
+@media only screen and (max-width: 768px) {
   .logo {
     font-size: 70px;
     font-weight: bold;
@@ -300,13 +292,13 @@ h1 {
   .line {
     height: 3px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 36px;
     line-height: 16px;
     margin-top: 30px;
@@ -325,7 +317,6 @@ h1 {
   .image {
     width: 718px;
     height: 100%;
-
   }
 
   .img {
@@ -346,8 +337,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 414px){
-
+@media only screen and (max-width: 414px) {
   .logo {
     font-size: 36px;
     font-weight: normal;
@@ -360,13 +350,13 @@ h1 {
   .line {
     height: 1px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 14px;
     line-height: 16px;
     margin-top: 10px;
@@ -385,7 +375,6 @@ h1 {
   .image {
     width: 350px;
     height: 100%;
-
   }
 
   .img {
@@ -406,8 +395,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 375px){
-
+@media only screen and (max-width: 375px) {
   .logo {
     font-size: 36px;
     text-align: center;
@@ -419,13 +407,13 @@ h1 {
   .line {
     height: 1px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 14px;
     line-height: 16px;
   }
@@ -443,7 +431,6 @@ h1 {
   .image {
     width: 100%;
     height: 100%;
-
   }
 
   .img {
@@ -463,8 +450,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 350px){
-
+@media only screen and (max-width: 350px) {
   .logo {
     font-size: 36px;
     text-align: center;
@@ -476,13 +462,13 @@ h1 {
   .line {
     height: 1px;
     width: 100%;
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     margin-bottom: 12px;
   }
 
   .date {
     text-align: center;
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 14px;
     line-height: 16px;
   }
@@ -500,7 +486,6 @@ h1 {
   .image {
     width: 100%;
     height: 100%;
-
   }
 
   .img {

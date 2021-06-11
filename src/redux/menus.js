@@ -1,26 +1,26 @@
 const initialState = {
-    items: [],
-    comments: [],
-    loading: false,
-}
+  items: [],
+  comments: [],
+  loading: false,
+};
 const menusReducer = (state = initialState, actions) => {
-    switch (actions.type) {
-        case "menus/load/start":
-            return {
-                ...state,
-                loading: true
-            }
+  switch (actions.type) {
+    case "menus/load/start":
+      return {
+        ...state,
+        loading: true,
+      };
 
-        case "menus/load/success":
-            return {
-                ...state,
-                items: actions.payload,
-                loading: false
-            }
+    case "menus/load/success":
+      return {
+        ...state,
+        items: actions.payload,
+        loading: false,
+      };
 
-        default:
-            return state;
-    }
-}
+    default:
+      return state;
+  }
+};
 
 export default menusReducer;

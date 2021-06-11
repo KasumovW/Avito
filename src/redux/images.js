@@ -1,25 +1,25 @@
 const initialState = {
-    items: [],
-    loading: false
-}
+  items: [],
+  loading: false,
+};
 const imagesReducer = (state = initialState, actions) => {
-    switch (actions.type) {
-        case "image/load/start":
-            return {
-                ...state,
-                loading: true
-            }
+  switch (actions.type) {
+    case "image/load/start":
+      return {
+        ...state,
+        loading: true,
+      };
 
-        case "image/load/success":
-            return {
-                ...state,
-                items: actions.payload,
-                loading: false
-            }
+    case "image/load/success":
+      return {
+        ...state,
+        items: actions.payload,
+        loading: false,
+      };
 
-        default:
-            return state;
-    }
-}
+    default:
+      return state;
+  }
+};
 
 export default imagesReducer;
