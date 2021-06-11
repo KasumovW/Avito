@@ -1,18 +1,20 @@
-## Данный проект - это avito-стажеров.
+## Данный проект - это задание avito-стажеров.
 
 ###Демо версия -<a href="https://secure-meadow-99052.herokuapp.com/" target="_blank"> проекта</a>
 * * *
 
 + Получение данных с сервера
-+ Роутинг (Переключение пежду страницами)
++ Роутинг (Переключение между страницами)
 + Адаптивная верстка
 
-![gif](https://github.com/KasumovW/leave-a-to-do-list/blob/main/src/Gif.gif)
+![gif](https://github.com/KasumovW/Avito/blob/main/Gif2.gif)
 
 * * *
 
 ### Технологии проекта:
 <p>
+<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
     <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
     <img alt="Github" src="https://img.shields.io/badge/-Github-black?style=for-the-badge&logo=github&logoColor=white" />
     <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-764ABC?style=for-the-badge&logo=heroku&logoColor=white" />
