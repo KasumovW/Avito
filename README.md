@@ -1,6 +1,6 @@
 ## Данный проект - это задание avito-стажеров.
 
-###Демо версия -<a href="https://secure-meadow-99052.herokuapp.com/" target="_blank"> проекта</a>
+### Демо версия -<a href="https://secure-meadow-99052.herokuapp.com/" target="_blank"> проекта</a>
 * * *
 
 + Получение данных с сервера
